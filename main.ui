@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1152</width>
+    <height>864</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="background_1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1161</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(0,25,51);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>1151</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(240,240,240);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="current_Date">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>107</y>
+      <width>400</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Color : white</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../.designer/backup/image/calendar.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="current_Time">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>107</y>
+      <width>171</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Color : white</string>
+    </property>
+    <property name="text">
+     <string>9시 16분</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="current_Meridiem">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>110</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Color : white</string>
+    </property>
+    <property name="text">
+     <string>오전</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sell">
+    <property name="geometry">
+     <rect>
+      <x>86</x>
+      <y>300</y>
+      <width>320</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>23</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:rgb(0,0,153);
+border-color: rgb(192,192,192);
+border-style : solid;
+border-width : 0px;
+Color : white;
+}</string>
+    </property>
+    <property name="text">
+     <string>상품 판매</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/gift.png</normaloff>image/gift.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="service">
+    <property name="geometry">
+     <rect>
+      <x>416</x>
+      <y>300</y>
+      <width>320</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>23</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(102,178,205);
+border-style:solid;
+Color : white;</string>
+    </property>
+    <property name="text">
+     <string>서비스 판매</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/service.png</normaloff>image/service.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="receipt">
+    <property name="geometry">
+     <rect>
+      <x>746</x>
+      <y>300</y>
+      <width>320</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>23</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : red;
+border-color: rgb(192,192,192);
+border-style : solid;
+border-width : 0px;
+Color : white;
+}</string>
+    </property>
+    <property name="text">
+     <string>영수증 업무</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/receipt.png</normaloff>image/receipt.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="check">
+    <property name="geometry">
+     <rect>
+      <x>746</x>
+      <y>430</y>
+      <width>320</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>23</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background : rgb(192,192,192);
+	border-color: rgb(192,192,192);	
+	border-style : solid;
+	border-width : 0px;
+	Color : white;
+}</string>
+    </property>
+    <property name="text">
+     <string>  조회 업무</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/check.png</normaloff>image/check.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="chat_icon">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>235</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/chat.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="chat">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>225</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>어서요세요. gs25입니다</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="star_icon">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>580</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/star.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="star">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>567</y>
+      <width>180</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>즐겨찾는 메뉴</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="store_icon">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>790</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/store.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="payment_icon">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>790</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/payment.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="manager_icon">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>790</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/manager.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="guide_icon">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>790</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/guide.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="self_checkout_icon">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>790</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/self.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="store">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>788</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>점포경영 시스템</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="payment">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>788</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>수불관리</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="manager">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>788</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>스토어매니저 톡톡</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="guide">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>788</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>업무가이드</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="self_checkout">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>788</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>셀프계산대 전환</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="option_icon">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>790</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/option.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="option">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>788</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>설정</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>619</y>
+      <width>981</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="traffic_card_recharge">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>돋움</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:white;
+border-style : solid;
+}
+QPushButton::pressed {
+background-color:rgb(200,200,200);
+border-style : solid;
+};</string>
+       </property>
+       <property name="text">
+        <string>교통카드
+현금충전</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="parcel_receipt">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>돋움</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:white;
+border-style : solid;
+}
+QPushButton::pressed {
+background-color:rgb(200,200,200);
+border-style : solid;
+};</string>
+       </property>
+       <property name="text">
+        <string>택배접수</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="previous_receipt">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>돋움</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:white;
+border-style : solid;
+}
+QPushButton::pressed {
+background-color:rgb(200,200,200);
+border-style : solid;
+};</string>
+       </property>
+       <property name="text">
+        <string>직전영수증발행</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="traffic_card_check_balance">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>돋움</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:white;
+border-style : solid;
+}
+QPushButton::pressed {
+background-color:rgb(200,200,200);
+border-style : solid;
+};</string>
+       </property>
+       <property name="text">
+        <string>교통카드
+잔액조회</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="dispose">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>돋움</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:white;
+border-style : solid;
+}
+QPushButton::pressed {
+background-color:rgb(200,200,200);
+border-style : solid;
+};</string>
+       </property>
+       <property name="text">
+        <string>폐기등록</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="traffic_card_recharge_fast">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>돋움</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:white;
+border-style : solid;
+}
+QPushButton::pressed {
+background-color:rgb(200,200,200);
+border-style : solid;
+};</string>
+       </property>
+       <property name="text">
+        <string>교통카드
+빠른현금충전</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="machine_number">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>110</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;</string>
+    </property>
+    <property name="text">
+     <string>1호기</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="version">
+    <property name="geometry">
+     <rect>
+      <x>735</x>
+      <y>110</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;</string>
+    </property>
+    <property name="text">
+     <string>ver 1.0.3.178</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="owner">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>110</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>돋움</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;</string>
+    </property>
+    <property name="text">
+     <string>김OO 님</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="calendar_icon">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>115</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/calendar.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="notification_icon">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>30</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/notification.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="menu_icon">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>30</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/menu.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="search_icon">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>30</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/search.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="download_icon">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>30</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/download.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gs25_icon">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>30</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url('C:/Users/User/Desktop/gs/image/gs25.png');</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>background_1</zorder>
+   <zorder>background_2</zorder>
+   <zorder>current_Time</zorder>
+   <zorder>current_Meridiem</zorder>
+   <zorder>sell</zorder>
+   <zorder>service</zorder>
+   <zorder>receipt</zorder>
+   <zorder>check</zorder>
+   <zorder>current_Date</zorder>
+   <zorder>chat_icon</zorder>
+   <zorder>chat</zorder>
+   <zorder>star_icon</zorder>
+   <zorder>star</zorder>
+   <zorder>store_icon</zorder>
+   <zorder>payment_icon</zorder>
+   <zorder>manager_icon</zorder>
+   <zorder>guide_icon</zorder>
+   <zorder>self_checkout_icon</zorder>
+   <zorder>store</zorder>
+   <zorder>payment</zorder>
+   <zorder>manager</zorder>
+   <zorder>guide</zorder>
+   <zorder>self_checkout</zorder>
+   <zorder>option_icon</zorder>
+   <zorder>option</zorder>
+   <zorder>horizontalLayoutWidget</zorder>
+   <zorder>machine_number</zorder>
+   <zorder>version</zorder>
+   <zorder>owner</zorder>
+   <zorder>calendar_icon</zorder>
+   <zorder>notification_icon</zorder>
+   <zorder>menu_icon</zorder>
+   <zorder>search_icon</zorder>
+   <zorder>download_icon</zorder>
+   <zorder>gs25_icon</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>sell</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_main_to_sell()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>385</x>
+     <y>363</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>372</x>
+     <y>586</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn_main_to_sell()</slot>
+  <slot>btn_sell_to_main()</slot>
+ </slots>
+</ui>
