@@ -1,5 +1,5 @@
-# 사용자 인터페이스
-![1](https://github.com/dontoong/gs25/assets/106039761/ed2d9fa1-5aea-4425-b467-cf8adc8a932e)
+# 인터페이스 설계
+![1](https://github.com/dontoong/gs25/assets/106039761/35ea4781-3e5e-4f65-a78f-49b37e7c452a)
 
 # ERD
 ![2](https://github.com/dontoong/gs25/assets/106039761/dea7d223-9e2b-4009-8628-ae09c6d72ac3)
