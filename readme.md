@@ -1,3 +1,13 @@
+# 환영합니다
+gs25 편의점 포스기의 상품 판매, 시재점검 기능을 구현하였습니다.<br/>
+<br/>
+사용한 개발환경 및 도구 : pycharm, oracle sql developer, droidcam(컴퓨터, 스마트폰)<br/>
+사용한 프레임워크 : pyqt, oracle db<br/>
+사용한 언어 : python, sql<br/>
+<br/>
+판매 화면에서 바코드 스캔이 가능한 상태일 때 p버튼을 누르면 바코드가 스캔됩니다.<br/>
+시재 점검 화면에서 텍스트에 엔터키를 눌러야 적용됩니다.<br/>
+
 # 인터페이스 설계
 ![1](https://github.com/dontoong/gs25/assets/106039761/35ea4781-3e5e-4f65-a78f-49b37e7c452a)
 
