@@ -21,28 +21,28 @@ gs25 편의점 포스기의 상품 판매, 시재점검 기능을 구현하였�
 ![2](https://github.com/dontoong/gs25/assets/106039761/dea7d223-9e2b-4009-8628-ae09c6d72ac3)
 
 # 동작 화면(UI)
-메인 화면
+## 메인 화면
 ![image](https://github.com/dontoong/gs25/assets/106039761/fbccb64b-6e57-4fc1-ad26-ecc7226a5b65)
 <br/><br/>
-상품 판매 화면
+## 상품 판매 화면
 ![image](https://github.com/dontoong/gs25/assets/106039761/9bd9db6d-f414-413a-9090-b4b511f98029)
 <br/><br/>
-판매 완료 화면
+## 판매 완료 화면
 ![image](https://github.com/dontoong/gs25/assets/106039761/136a1ce5-d9d6-4186-8f2c-9c9a7e026f30)
 <br/><br/>
-상품 판매 화면(금액 입력)
+## 상품 판매 화면(금액 입력)
 ![image](https://github.com/dontoong/gs25/assets/106039761/eff37c1f-e703-471c-9413-853c14653384)
 <br/><br/>
-판매 완료 화면(금액 입력)
+## 판매 완료 화면(금액 입력)
 ![image](https://github.com/dontoong/gs25/assets/106039761/57ffe8c0-a781-49cd-8740-22e4e69fc12c)
 <br/><br/>
-시재 점검 화면(시재 입력)
+## 시재 점검 화면(시재 입력)
 ![image](https://github.com/dontoong/gs25/assets/106039761/dc3f1b6c-0a53-4ce0-9ee6-1fe1c5a6eefc)
 <br/><br/>
-시재 점검 화면(시재 입력)
+## 시재 점검 화면(시재 입력)
 ![image](https://github.com/dontoong/gs25/assets/106039761/bb9fed69-1e93-4f1c-aa67-35801eb04596)
 <br/><br/>
-시재 결과 화면
+## 시재 결과 화면
 ![image](https://github.com/dontoong/gs25/assets/106039761/8a37fa90-e1a8-4746-883d-1b9ab6fca7ea)
 <br/><br/>
 
