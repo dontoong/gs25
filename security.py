@@ -1,3 +1,3 @@
 import cx_Oracle as cx
-con = cx.connect("your_id", "your_password", "your_ip", encoding="UTF-8")
+con = cx.connect("아이디", "비밀번호", "ip주소", encoding="UTF-8")
 cursor = con.cursor()
