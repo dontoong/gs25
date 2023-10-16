@@ -14,13 +14,8 @@ gs25 편의점 포스기의 상품 판매, 시재점검 기능을 구현하였�
 시재 점검 화면에서 텍스트에 엔터키를 눌러야 적용됩니다.
 # 동작 영상
 [유튜브 링크](https://youtu.be/kVJpqkf7Mw8)
-# 인터페이스 설계
-![1](https://github.com/dontoong/gs25/assets/106039761/35ea4781-3e5e-4f65-a78f-49b37e7c452a)
 
-# ERD
-![2](https://github.com/dontoong/gs25/assets/106039761/dea7d223-9e2b-4009-8628-ae09c6d72ac3)
-
-# 동작 화면(UI)
+# UI
 ## 메인 화면
 ![image](https://github.com/dontoong/gs25/assets/106039761/fbccb64b-6e57-4fc1-ad26-ecc7226a5b65)
 <br/><br/>
@@ -45,6 +40,15 @@ gs25 편의점 포스기의 상품 판매, 시재점검 기능을 구현하였�
 ## 시재 결과 화면
 ![image](https://github.com/dontoong/gs25/assets/106039761/8a37fa90-e1a8-4746-883d-1b9ab6fca7ea)
 <br/><br/>
+
+# 개발 환경
+![image](https://github.com/dontoong/gs25/assets/106039761/6179d73c-edb2-4a17-aa33-adaaf54adef2)
+
+# 인터페이스 설계 및 구조
+![1](https://github.com/dontoong/gs25/assets/106039761/35ea4781-3e5e-4f65-a78f-49b37e7c452a)
+
+# 데이터베이스 구조
+![2](https://github.com/dontoong/gs25/assets/106039761/dea7d223-9e2b-4009-8628-ae09c6d72ac3)
 
 # 기타 주의사항
 ## security.py
