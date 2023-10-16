@@ -13,7 +13,7 @@ gs25 편의점 포스기의 상품 판매, 시재점검 기능을 구현하였�
 <br/>
 시재 점검 화면에서 텍스트에 엔터키를 눌러야 적용됩니다.
 # 동작 영상
-[유튜브 링크](https://youtu.be/kVJpqkf7Mw8)
+https://youtu.be/kVJpqkf7Mw8
 
 # UI
 ## 메인 화면
