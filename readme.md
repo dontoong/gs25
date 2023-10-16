@@ -42,7 +42,7 @@ gs25 편의점 포스기의 상품 판매, 시재점검 기능을 구현하였�
 <br/><br/>
 
 # 개발 환경
-![image](https://github.com/dontoong/gs25/assets/106039761/6179d73c-edb2-4a17-aa33-adaaf54adef2)
+![image](https://github.com/dontoong/gs25/assets/106039761/a9bcd6a8-dc1f-437d-90cd-1be31b109237)
 
 # 인터페이스 설계 및 구조
 ![1](https://github.com/dontoong/gs25/assets/106039761/35ea4781-3e5e-4f65-a78f-49b37e7c452a)
