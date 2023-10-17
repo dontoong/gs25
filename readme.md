@@ -28,7 +28,7 @@ gs25 편의점 포스기의 상품 판매, 시재점검 기능을 구현하였�
 ![2](https://github.com/dontoong/gs25/assets/106039761/dea7d223-9e2b-4009-8628-ae09c6d72ac3)
 
 # 동작 영상
-https://youtu.be/kVJpqkf7Mw8
+https://youtu.be/7tRORFXjcRc?si=Rv02wLHhKycoCIRS
 
 # UI
 ## 메인 화면
