@@ -14,7 +14,7 @@ gs25 편의점 포스기의 상품 판매, 시재점검 기능을 구현하였�
 시재 점검 화면에서 텍스트에 엔터키를 눌러야 적용됩니다.
 
 # 프로젝트 목적 및 목표
-![image](https://github.com/dontoong/gs25/assets/106039761/c1cfc39f-7e03-4301-917b-acf0a55f93c8)
+![image](https://github.com/dontoong/gs25/assets/106039761/9b659fc3-1f84-4273-b5b7-6d499d0c7f1d)
 
 # 개발 환경
 ![image](https://github.com/dontoong/gs25/assets/106039761/a9bcd6a8-dc1f-437d-90cd-1be31b109237)
