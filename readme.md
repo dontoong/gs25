@@ -12,6 +12,16 @@ gs25 편의점 포스기의 상품 판매, 시재점검 기능을 구현하였�
 판매 화면에서 바코드 스캔이 가능한 상태일 때 p버튼을 누르면 바코드가 스캔됩니다.<br/>
 <br/>
 시재 점검 화면에서 텍스트에 엔터키를 눌러야 적용됩니다.
+
+# 개발 환경
+![image](https://github.com/dontoong/gs25/assets/106039761/a9bcd6a8-dc1f-437d-90cd-1be31b109237)
+
+# 인터페이스 설계 및 구조
+![1](https://github.com/dontoong/gs25/assets/106039761/35ea4781-3e5e-4f65-a78f-49b37e7c452a)
+
+# 데이터베이스 구조
+![2](https://github.com/dontoong/gs25/assets/106039761/dea7d223-9e2b-4009-8628-ae09c6d72ac3)
+
 # 동작 영상
 https://youtu.be/kVJpqkf7Mw8
 
@@ -41,14 +51,6 @@ https://youtu.be/kVJpqkf7Mw8
 ![image](https://github.com/dontoong/gs25/assets/106039761/8a37fa90-e1a8-4746-883d-1b9ab6fca7ea)
 <br/><br/>
 
-# 개발 환경
-![image](https://github.com/dontoong/gs25/assets/106039761/a9bcd6a8-dc1f-437d-90cd-1be31b109237)
-
-# 인터페이스 설계 및 구조
-![1](https://github.com/dontoong/gs25/assets/106039761/35ea4781-3e5e-4f65-a78f-49b37e7c452a)
-
-# 데이터베이스 구조
-![2](https://github.com/dontoong/gs25/assets/106039761/dea7d223-9e2b-4009-8628-ae09c6d72ac3)
 
 # 기타 주의사항
 ## security.py
